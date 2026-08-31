@@ -10,16 +10,16 @@
 - [x] Release build rejects missing or Test Store RevenueCat keys.
 - [x] AI service code, tests, validation, and rate limiting exist.
 - [ ] Cloudflare Worker is deployed and live responses are device-tested.
-- [ ] RevenueCat Offering returns a localized price on device.
-- [ ] Test Store purchase activates the `pro` entitlement.
-- [ ] Restore is tested with an existing purchase.
+- [x] RevenueCat Offering returns a localized price on device (`$79.98` yearly Test Store package).
+- [x] Test Store purchase activates the `replaylead_pro` entitlement.
+- [x] Restore is tested with an existing purchase.
 
 ## Public artifacts
 
 - [ ] Public MIT repository; verify from a signed-out browser.
 - [ ] Repository default branch passes Android and backend CI.
-- [ ] 1024 x 1024 project icon.
-- [ ] At least one 1179 x 2556 no-frame screenshot.
+- [x] 1024 x 1024 project icon.
+- [x] At least one 1179 x 2556 no-frame screenshot.
 - [ ] Public demo video under two minutes; verify signed out.
 - [ ] Hosted privacy policy.
 

@@ -12,7 +12,7 @@ val localProperties = Properties().apply {
 }
 
 val revenueCatApiKey = localProperties.getProperty("revenuecat.apiKey", "").trim()
-val revenueCatEntitlementId = localProperties.getProperty("revenuecat.entitlementId", "pro").trim()
+val revenueCatEntitlementId = localProperties.getProperty("revenuecat.entitlementId", "replaylead_pro").trim()
 
 fun quoted(value: String) = "\"${value.replace("\\", "\\\\").replace("\"", "\\\"")}\""
 

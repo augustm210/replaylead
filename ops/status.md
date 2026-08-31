@@ -11,6 +11,8 @@ Updated: 2026-08-31
 - Installed a portable JDK 17 and Android SDK under `.tooling`.
 - Built the Android/Compose product slice with three scenarios, confidence checks, real rewind branches, and four-dimensional coaching.
 - Integrated RevenueCat 10.19.1 live Offering lookup, localized price display, purchase, entitlement verification, and user-triggered restore.
+- Verified the live RevenueCat Test Store configuration: `default` Offering with three packages and the `replaylead_pro` entitlement mapped to three products.
+- Rebuilt and device-tested the configured SDK: yearly price loaded as `$79.98`, a simulated purchase posted successfully, `replaylead_pro` became active, and explicit restore succeeded.
 - Added a release guard that rejects missing RevenueCat keys and Test Store `test_` keys; verified the missing-key failure locally.
 - Added a deployable Cloudflare Workers AI service with strict input limits, schema-constrained output, and per-IP rate limiting.
 - Passed Android unit tests, debug assembly, lint, backend typecheck, and five backend tests.
@@ -20,14 +22,12 @@ Updated: 2026-08-31
 ## In progress
 
 - Required 1024 px icon, 1179 x 2556 screenshots, demo script, and Devpost copy.
-- RevenueCat Test Store dashboard configuration and end-to-end purchase evidence.
 - Cloudflare Worker deployment and live AI response evidence.
 
 ## Needs authenticated browser access later
 
-- RevenueCat product, offering, entitlement, paywall, and public key verification.
 - Cloudflare account authentication and Worker deployment.
-- Play Console account type, creation date, verification, and production-access status.
+- Play Console identity verification is pending; app creation remains disabled until Google approves the submitted documents and phone verification completes.
 - GitHub public repository creation and push.
 - Public YouTube or Vimeo upload of the sub-two-minute demo.
 - Existing Devpost draft field-by-field audit and completion.

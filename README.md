@@ -29,7 +29,7 @@ Requirements are installed portably under `.tooling` by the project setup proces
    ```properties
    sdk.dir=E:\\work\\replaylead\\.tooling\\android-sdk
    revenuecat.apiKey=
-   revenuecat.entitlementId=pro
+   revenuecat.entitlementId=replaylead_pro
    conversation.apiUrl=
    ```
 

@@ -31,7 +31,7 @@ ReplayLead Pro is designed as a recurring practice habit: unlimited rehearsals, 
 
 ## RevenueCat implementation
 
-The paywall fetches the current RevenueCat Offering only when opened, displays the StoreProduct's localized price, purchases the selected annual package, and unlocks only when the configured `pro` entitlement is active. Restore is always an explicit user action. Release builds fail if the public SDK key is missing or has the Test Store `test_` prefix.
+The paywall fetches the current RevenueCat Offering only when opened, displays the StoreProduct's localized price, purchases the selected annual package, and unlocks only when the configured `replaylead_pro` entitlement is active. Restore is always an explicit user action. Release builds fail if the public SDK key is missing or has the Test Store `test_` prefix.
 
 Evidence to add:
 
