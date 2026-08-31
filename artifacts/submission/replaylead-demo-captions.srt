@@ -1,0 +1,74 @@
+1
+00:00:01,000 --> 00:00:06,500
+New managers are expected to handle difficult feedback
+before they have ever practiced saying it.
+
+2
+00:00:06,500 --> 00:00:12,900
+ReplayLead makes the real conversation
+your second attempt, not your first.
+
+3
+00:00:13,500 --> 00:00:19,900
+I start with a realistic workplace scenario
+and record how prepared I feel.
+
+4
+00:00:20,000 --> 00:00:27,300
+The goal: name the impact, understand what happened,
+and agree on a concrete recovery plan.
+
+5
+00:00:27,700 --> 00:00:33,700
+This is active rehearsal. I write the words
+I would actually use, and the counterpart reacts.
+
+6
+00:00:33,800 --> 00:00:40,600
+Advice becomes practice,
+not another article to read.
+
+7
+00:00:41,000 --> 00:00:47,600
+Rewind returns to a specific moment
+and starts a true alternate branch.
+
+8
+00:00:47,700 --> 00:00:55,700
+I can replace a vague response with clearer evidence,
+curiosity, support, and a concrete next step.
+
+9
+00:00:56,100 --> 00:01:03,500
+ReplayLead scores clarity, empathy,
+assertiveness, and actionability.
+
+10
+00:01:03,600 --> 00:01:11,800
+It gives a focused improvement and stronger language.
+The confidence check makes the change visible.
+
+11
+00:01:12,100 --> 00:01:18,800
+RevenueCat powers ReplayLead Pro.
+The paywall loads the live localized annual price.
+
+12
+00:01:18,900 --> 00:01:26,500
+Entitlement verification and user-triggered restore
+unlock ReplayLead Pro on this account.
+
+13
+00:01:26,800 --> 00:01:33,500
+For Shipaton, the purchase flow was verified end to end
+with RevenueCat Test Store.
+
+14
+00:01:33,600 --> 00:01:41,200
+It is a simulated transaction, so we do not claim
+real revenue or a production store sale.
+
+15
+00:01:41,500 --> 00:01:47,200
+ReplayLead: practice the hard conversation,
+rewind the moment, and lead it better.

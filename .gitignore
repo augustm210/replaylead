@@ -12,6 +12,10 @@ local.properties
 .tooling/
 .codex_qa/
 artifacts/qa/
+artifacts/submission/demo-frames/
+artifacts/submission/*-raw.mp4
+artifacts/submission/*-ui.xml
+artifacts/submission/*.wav
 backend/node_modules/
 backend/.wrangler/
 backend/coverage/
