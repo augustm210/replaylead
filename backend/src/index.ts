@@ -116,9 +116,12 @@ async function reply(env: Env, scenario: Scenario, turns: Turn[]): Promise<Respo
 }
 
 function score(value: unknown): number | null {
-  return typeof value === "number" && Number.isFinite(value)
-    ? Math.max(0, Math.min(100, Math.round(value)))
-    : null;
+  if (typeof value !== "number" || !Number.isFinite(value)) return null;
+  // Workers AI may return a rubric score even when the JSON schema asks for a
+  // percentage. Normalize common 1-5 and 1-10 scales so the Android API stays
+  // consistently 0-100.
+  const normalized = value <= 5 ? value * 20 : value <= 10 ? value * 10 : value;
+  return Math.max(0, Math.min(100, Math.round(normalized)));
 }
 
 async function coach(env: Env, scenario: Scenario, turns: Turn[]): Promise<Response> {
@@ -127,7 +130,7 @@ async function coach(env: Env, scenario: Scenario, turns: Turn[]): Promise<Respo
     messages: [
       {
         role: "system",
-        content: `You are an evidence-based leadership communication coach. Scenario: ${scenario.context} Goal: ${scenario.goal} Score only what the manager actually said. Give concise, specific feedback that builds confidence without false praise. The suggested response must be language the manager could say next.`,
+        content: `You are an evidence-based leadership communication coach. Scenario: ${scenario.context} Goal: ${scenario.goal} Score only what the manager actually said. The four scores must be percentage integers from 0 to 100, normally between 40 and 95; never use a 1-5 or 1-10 rating scale. Give concise, specific feedback that builds confidence without false praise. The suggested response must be language the manager could say next.`,
       },
       { role: "user", content: transcript },
     ],

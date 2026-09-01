@@ -61,6 +61,12 @@ Never put secret RevenueCat keys or model-provider API keys in this Android proj
 
 ReplayLead is being built for RevenueCat Shipaton 2026. The current strategy and evidence log live in `ops/`.
 
+- Demo: https://www.youtube.com/watch?v=XlhX__dl-Qw
+- Live API health check: https://replaylead-api.augustm210.workers.dev/health
+- Privacy policy: https://github.com/augustm210/replaylead/blob/main/submission/privacy-policy.md
+
+The RevenueCat transaction shown in the demo uses RevenueCat Test Store and does not represent real revenue. Google Play publication remains conditional on Google completing the developer-account identity review.
+
 ## License
 
 MIT

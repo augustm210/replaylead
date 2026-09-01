@@ -14,6 +14,7 @@ local.properties
 artifacts/qa/
 artifacts/submission/demo-frames/
 artifacts/submission/*-raw.mp4
+artifacts/submission/*-validation.mp4
 artifacts/submission/*-ui.xml
 artifacts/submission/*.wav
 backend/node_modules/

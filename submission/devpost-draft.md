@@ -1,6 +1,6 @@
 # ReplayLead — Devpost Draft
 
-Status: working submission copy. Bracketed items must be replaced with verified links or evidence before submission.
+Status: working submission copy. Public links are verified; store availability and real revenue remain conditional until direct evidence exists.
 
 ## Tagline
 
@@ -35,8 +35,8 @@ The paywall fetches the current RevenueCat Offering only when opened, displays t
 
 Evidence to add:
 
-- [BLOCKED: public RevenueCat Test Store purchase video timestamp]
-- [BLOCKED: entitlement screenshot]
+- Demo purchase and restore segment: https://www.youtube.com/watch?v=XlhX__dl-Qw
+- Device evidence: `artifacts/submission/revenuecat-pro-restored-1080x2400.png`
 - [BLOCKED: live store product and public platform key evidence, if Gate B passes]
 
 ## Challenges
@@ -70,7 +70,8 @@ Android, Kotlin, Jetpack Compose, RevenueCat, Cloudflare Workers, Workers AI, Ty
 
 ## Required links
 
-- Public repository: [BLOCKED: GitHub URL]
-- Demo video: [BLOCKED: public YouTube or Vimeo URL]
+- Public repository: https://github.com/augustm210/replaylead
+- Demo video: https://www.youtube.com/watch?v=XlhX__dl-Qw
+- Live API: https://replaylead-api.augustm210.workers.dev
 - App/store URL: [BLOCKED or not required for Next Gen]
-- Privacy policy: [BLOCKED: hosted URL]
+- Privacy policy: https://github.com/augustm210/replaylead/blob/main/submission/privacy-policy.md

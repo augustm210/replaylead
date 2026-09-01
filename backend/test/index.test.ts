@@ -64,4 +64,28 @@ describe("ReplayLead API", () => {
     expect(response.status).toBe(200);
     expect(await response.json()).toMatchObject({ clarity: 82, actionability: 88 });
   });
+
+  it("normalizes rubric-style AI scores to percentages", async () => {
+    const bindings = env({ response: JSON.stringify({
+      clarity: 3,
+      empathy: 4,
+      assertiveness: 5,
+      actionability: 2,
+      strength: "You named the impact clearly.",
+      improvement: "Ask for a concrete next step.",
+      suggestedResponse: "What checkpoint should we agree on?",
+    }) });
+    const response = await handleRequest(new Request("https://example.test/v1/coach", {
+      method: "POST",
+      body: JSON.stringify({ scenarioId: "feedback", turns: [{ role: "user", text: "I noticed two deadlines slipped this month." }] }),
+    }), bindings);
+
+    expect(response.status).toBe(200);
+    expect(await response.json()).toMatchObject({
+      clarity: 60,
+      empathy: 80,
+      assertiveness: 100,
+      actionability: 40,
+    });
+  });
 });
