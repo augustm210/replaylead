@@ -25,16 +25,23 @@ Updated: 2026-09-01
 - Google approved the developer-account identity gate and enabled app creation.
 - Created the Google Play app `ReplayLead` with package `com.replaylead.app`, English (United States) as the default language, free pricing, and Play app ID `4974326812058473241`.
 - Fixed the Linux executable bit on `gradlew`; the public GitHub Actions Android and backend jobs both pass for commit `9aa99c1`.
+- Created a dedicated Google Cloud service account for RevenueCat with only Pub/Sub Editor and Monitoring Viewer, and enabled the five required Google APIs without enabling billing.
+- Granted the RevenueCat service account the four required Play Console account permissions; Play Console reports the access as active and non-expiring.
+- Created the RevenueCat Google Play app configuration for `com.replaylead.app`, uploaded the service-account JSON, and replaced the Test Store SDK key locally with the generated `goog_` public key.
+- Generated an ignored upload keystore and private signing properties under `ops/private`, wired release signing into Gradle, and passed unit tests plus `bundleRelease`.
+- Verified the signed 8.2 MB release bundle at `artifacts/submission/ReplayLead-0.1.0-build1-release.aab` (SHA-256 `4F0820B96316322CDC212CB725BD835DF2342E54C7F30C0F39D1442B622D37F2`).
 
 ## In progress
 
 - Devpost field-by-field completion and final submission review.
-- Google Play's 11 app-content/store-listing tasks, production RevenueCat configuration, signed AAB, and closed-test launch.
+- Google Play's 11 app-content/store-listing tasks and closed-test launch.
+- Upload the signed AAB to Google Play; RevenueCat currently reports that purchase validation cannot find the package until Google Play has processed the first bundle, while catalog-read checks pass.
 - Recruit at least 12 real Google Play testers and keep at least 12 opted in for 14 continuous days before requesting production access.
 
 ## External blocker / authenticated action remaining
 
 - Existing Devpost draft field-by-field audit and completion.
+- Final Google Play test-release submission, app-content declarations, tester-list transmission, and final Devpost submission each require action-time review/confirmation.
 
 ## Verified schedule constraints
 

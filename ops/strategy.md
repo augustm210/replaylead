@@ -1,13 +1,15 @@
 # ReplayLead Shipaton Strategy
 
-Updated: 2026-08-31
+Updated: 2026-09-01
 
 ## Decision
 
-Build one excellent product story and submit it through two evidence paths:
+Build one excellent product story and pursue two evidence paths:
 
-1. **Primary reliable path:** Next Gen plus Career Coaching. Ship a polished Android demo, public source, a sub-two-minute video, and a thoughtful RevenueCat monetization flow.
+1. **Primary path:** regular Shipaton submission plus Influencer Career Coaching. Ship a polished public Play release, public source, a sub-two-minute video, and a thoughtful RevenueCat monetization flow.
 2. **Grand Prize path:** pursue only if a live eligible store release can happen early enough to collect real RevenueCat revenue and defensible growth evidence.
+
+Next Gen is conditional, not a default path: use it only if the entrant can document the required student status with an eligible academic email or equivalent proof.
 
 ## Why the playbook was narrowed
 
@@ -34,7 +36,7 @@ OneSignal, Galaxy-specific work, and RevenueCat Ads remain optional gates, not d
 
 ## Release gates
 
-### Gate A - Next Gen ready
+### Gate A - Submission materials ready
 
 - Debug APK builds and runs.
 - Rewind creates a real alternate branch.

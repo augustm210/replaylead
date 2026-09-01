@@ -17,6 +17,7 @@ artifacts/submission/*-raw.mp4
 artifacts/submission/*-validation.mp4
 artifacts/submission/*-ui.xml
 artifacts/submission/*.wav
+artifacts/submission/*.aab
 backend/node_modules/
 backend/.wrangler/
 backend/coverage/

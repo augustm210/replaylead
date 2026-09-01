@@ -11,6 +11,18 @@ val localProperties = Properties().apply {
     if (file.exists()) file.inputStream().use(::load)
 }
 
+val signingProperties = Properties().apply {
+    val file = rootProject.file("ops/private/upload-keystore.properties")
+    if (file.exists()) file.inputStream().use(::load)
+}
+
+val hasReleaseSigning = listOf(
+    "storeFile",
+    "storePassword",
+    "keyAlias",
+    "keyPassword",
+).all { !signingProperties.getProperty(it, "").isNullOrBlank() }
+
 val revenueCatApiKey = localProperties.getProperty("revenuecat.apiKey", "").trim()
 val revenueCatEntitlementId = localProperties.getProperty("revenuecat.entitlementId", "replaylead_pro").trim()
 
@@ -19,6 +31,17 @@ fun quoted(value: String) = "\"${value.replace("\\", "\\\\").replace("\"", "\\\"
 android {
     namespace = "com.replaylead.app"
     compileSdk = 36
+
+    signingConfigs {
+        if (hasReleaseSigning) {
+            create("release") {
+                storeFile = file(signingProperties.getProperty("storeFile"))
+                storePassword = signingProperties.getProperty("storePassword")
+                keyAlias = signingProperties.getProperty("keyAlias")
+                keyPassword = signingProperties.getProperty("keyPassword")
+            }
+        }
+    }
 
     defaultConfig {
         applicationId = "com.replaylead.app"
@@ -51,6 +74,9 @@ android {
             versionNameSuffix = "-debug"
         }
         release {
+            if (hasReleaseSigning) {
+                signingConfig = signingConfigs.getByName("release")
+            }
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(
@@ -89,6 +115,9 @@ tasks.matching { it.name == "assembleRelease" || it.name == "bundleRelease" }.co
         }
         check(revenueCatEntitlementId.isNotBlank()) {
             "Release builds require revenuecat.entitlementId in local.properties."
+        }
+        check(hasReleaseSigning) {
+            "Release builds require ops/private/upload-keystore.properties."
         }
     }
 }
