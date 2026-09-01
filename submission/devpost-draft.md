@@ -65,7 +65,9 @@ Android, Kotlin, Jetpack Compose, RevenueCat, Cloudflare Workers, Workers AI, Ty
 ## Category targets
 
 - Career Coaching
-- Next Gen
+- RevenueCat Design Award
+- RevenueCat Peace Prize
+- Next Gen only if active-student status and a qualifying education email are confirmed
 - Grand Prize only if the live-store and real-revenue gates are actually satisfied
 
 ## Required links

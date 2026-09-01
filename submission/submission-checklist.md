@@ -17,7 +17,7 @@
 ## Public artifacts
 
 - [x] Public MIT repository: https://github.com/augustm210/replaylead.
-- [ ] Repository default branch passes Android and backend CI.
+- [x] Repository default branch passes Android and backend CI (commit `9aa99c1`).
 - [x] 1024 x 1024 project icon.
 - [x] At least one 1179 x 2556 no-frame screenshot.
 - [x] Link-accessible YouTube demo under two minutes: https://www.youtube.com/watch?v=XlhX__dl-Qw.
@@ -36,6 +36,9 @@
 
 ## Grand Prize gate
 
+- [x] Google Play app exists with package `com.replaylead.app` (Play app ID `4974326812058473241`).
+- [ ] Signed release AAB uses a real Google Play RevenueCat public SDK key, not the Test Store key.
+- [ ] Closed test is live with at least 12 opted-in testers for 14 continuous days.
 - [ ] Publicly downloadable eligible store build exists in the United States.
 - [ ] Real RevenueCat revenue exists during the submission period.
 - [ ] Release and growth evidence is dated and reproducible.

@@ -22,16 +22,25 @@ Updated: 2026-09-01
 - Initialized a clean local Git repository; ignored the playbook, local SDK, QA evidence, build outputs, and private configuration.
 - Created and pushed the public MIT repository at https://github.com/augustm210/replaylead.
 - Published the 1:47 verified demo as an unlisted, link-accessible YouTube video at https://www.youtube.com/watch?v=XlhX__dl-Qw.
+- Google approved the developer-account identity gate and enabled app creation.
+- Created the Google Play app `ReplayLead` with package `com.replaylead.app`, English (United States) as the default language, free pricing, and Play app ID `4974326812058473241`.
+- Fixed the Linux executable bit on `gradlew`; the public GitHub Actions Android and backend jobs both pass for commit `9aa99c1`.
 
 ## In progress
 
 - Devpost field-by-field completion and final submission review.
-- Google Play developer identity review and phone verification.
+- Google Play's 11 app-content/store-listing tasks, production RevenueCat configuration, signed AAB, and closed-test launch.
+- Recruit at least 12 real Google Play testers and keep at least 12 opted in for 14 continuous days before requesting production access.
 
 ## External blocker / authenticated action remaining
 
-- Play Console identity verification is pending; app creation remains disabled until Google approves the submitted documents and phone verification completes.
 - Existing Devpost draft field-by-field audit and completion.
+
+## Verified schedule constraints
+
+- Devpost displays a submission deadline of 2026-10-01 00:45 in the account's configured CST display.
+- The first public store version must be released between 2026-08-01 and 2026-09-30.
+- This personal Google Play account requires a qualifying closed test before production: at least 12 opted-in testers for at least 14 days. There were 0 opted-in testers when the app was created on 2026-09-01.
 
 ## Frozen until core gates pass
 
