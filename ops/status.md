@@ -43,6 +43,7 @@ Updated: 2026-09-01
 ## External blocker / authenticated action remaining
 
 - Existing Devpost draft field-by-field audit and completion.
+- Google Play blocks subscription and one-time-product creation until a Google Payments merchant account is opened. The account setup can require the owner's legal, address, tax, banking, and payout information and must be reviewed and submitted by the account owner; no such information has been entered by Codex.
 - Final Google Play test-release submission, app-content declarations, tester-list transmission, and final Devpost submission each require action-time review/confirmation.
 
 ## Verified schedule constraints
