@@ -30,12 +30,14 @@ Updated: 2026-09-01
 - Created the RevenueCat Google Play app configuration for `com.replaylead.app`, uploaded the service-account JSON, and replaced the Test Store SDK key locally with the generated `goog_` public key.
 - Generated an ignored upload keystore and private signing properties under `ops/private`, wired release signing into Gradle, and passed unit tests plus `bundleRelease`.
 - Verified the signed 8.2 MB release bundle at `artifacts/submission/ReplayLead-0.1.0-build1-release.aab` (SHA-256 `4F0820B96316322CDC212CB725BD835DF2342E54C7F30C0F39D1442B622D37F2`).
+- Uploaded version `1 (0.1.0)` to Google Play internal testing and published the internal release on 2026-09-01. The track is active but has no testers, so the build is not available to any user and is not a public release.
+- Re-ran RevenueCat credential validation after Google Play processed the first bundle; the Google Play service-account configuration now reports `Valid credentials`.
 
 ## In progress
 
 - Devpost field-by-field completion and final submission review.
 - Google Play's 11 app-content/store-listing tasks and closed-test launch.
-- Upload the signed AAB to Google Play; RevenueCat currently reports that purchase validation cannot find the package until Google Play has processed the first bundle, while catalog-read checks pass.
+- Create the real Google Play subscription/in-app-product catalog, connect Google developer notifications, and map the products into the RevenueCat entitlement and Offering.
 - Recruit at least 12 real Google Play testers and keep at least 12 opted in for 14 continuous days before requesting production access.
 
 ## External blocker / authenticated action remaining
