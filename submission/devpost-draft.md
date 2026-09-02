@@ -1,6 +1,6 @@
 # ReplayLead — Devpost Draft
 
-Status: working submission copy. Public links and production-shaped Google Play/RevenueCat configuration are verified; public store availability and real revenue remain conditional until direct evidence exists.
+Status: saved to Devpost and preview-audited on 2026-09-02. The submission is at 4/5 steps; official-rules acceptance and the final Submit action are pending explicit action-time confirmation. Public store availability and real revenue remain conditional until direct evidence exists.
 
 ## Tagline
 

@@ -37,10 +37,13 @@ Updated: 2026-09-02
 - Imported all three Google Play products into RevenueCat, attached them to `replaylead_pro`, and mapped them to the `$rc_monthly`, `$rc_annual`, and `$rc_lifetime` packages in the `default` Offering while preserving the Test Store mappings.
 - Created the dedicated `play-store-notifications` Pub/Sub topic, connected it to RevenueCat, enabled Google Play real-time developer notifications for subscriptions, voided purchases, and all one-time products, and granted Google Play publisher access only on that topic.
 - Sent a Google Play test notification and verified end-to-end receipt in RevenueCat (`Last received 2026-09-02 08:09 UTC`).
+- Rebuilt the Android project after the production RevenueCat configuration; unit tests, lint, and the signed release bundle all passed.
+- Completed and saved Devpost project details and Additional Info, including the public story, 11 technology tags, GitHub and live API links, the YouTube demo, a 3:2 thumbnail, the required 1024 x 1024 icon, five product screenshots, Next Gen repository/student validation fields, and evidence-bounded HAMM, Peace, Design, and Career Coaching descriptions.
+- Audited the public Devpost preview: Markdown headings and lists render correctly, all seven media items are present, the video embeds, and the public links appear without placeholders. The submission is at 4/5 steps; rules acceptance and the final Submit action remain intentionally uncompleted pending action-time confirmation.
 
 ## In progress
 
-- Devpost field-by-field completion and final submission review.
+- Devpost final rules acceptance and submission confirmation.
 - Google Play's 11 app-content/store-listing tasks and closed-test launch.
 - Recruit at least 12 real Google Play testers and keep at least 12 opted in for 14 continuous days before requesting production access.
 

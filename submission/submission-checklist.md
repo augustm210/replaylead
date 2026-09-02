@@ -27,13 +27,13 @@
 
 ## Devpost audit
 
-- [ ] Title, tagline, description, categories, built-with tags, and links are complete.
-- [ ] Existing partial draft is compared field by field before overwriting anything.
-- [ ] No claims of users, revenue, conversion, testimonials, store availability, or integrations without evidence.
+- [x] Title, tagline, description, categories, built-with tags, and links are complete.
+- [x] Existing partial draft is compared field by field before overwriting anything.
+- [x] No claims of users, revenue, conversion, testimonials, store availability, or integrations without evidence.
 - [x] RevenueCat implementation is visible in the video and described accurately.
-- [ ] Career Coaching story explicitly covers realistic practice, useful feedback, and confidence building.
-- [ ] Next Gen public source and license requirements are satisfied.
-- [ ] Final preview has no placeholders, broken links, private videos, or inaccessible repository.
+- [x] Career Coaching story explicitly covers realistic practice, useful feedback, and confidence building.
+- [x] Next Gen public source and license requirements are satisfied.
+- [x] Final preview has no placeholders, broken links, private videos, or inaccessible repository.
 - [ ] Submission confirmation is captured after the final save/submit action.
 
 ## Grand Prize gate
