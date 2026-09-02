@@ -22,6 +22,7 @@ backend/node_modules/
 backend/.wrangler/
 backend/coverage/
 backend/.dev.vars*
+__pycache__/
 ReplayLead_Shipaton2026_Codex_Execution_Playbook.docx
 LOCAL_ONLY_*
 ops/private/

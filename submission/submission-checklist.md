@@ -13,6 +13,8 @@
 - [x] RevenueCat Offering returns a localized price on device (`$79.98` yearly Test Store package).
 - [x] Test Store purchase activates the `replaylead_pro` entitlement.
 - [x] Restore is tested with an existing purchase.
+- [x] Google Play products are active and mapped to the `replaylead_pro` entitlement and `default` Offering in RevenueCat.
+- [x] Google Play real-time developer notifications are connected and a test notification is received by RevenueCat.
 
 ## Public artifacts
 
@@ -28,7 +30,7 @@
 - [ ] Title, tagline, description, categories, built-with tags, and links are complete.
 - [ ] Existing partial draft is compared field by field before overwriting anything.
 - [ ] No claims of users, revenue, conversion, testimonials, store availability, or integrations without evidence.
-- [ ] RevenueCat implementation is visible in the video and described accurately.
+- [x] RevenueCat implementation is visible in the video and described accurately.
 - [ ] Career Coaching story explicitly covers realistic practice, useful feedback, and confidence building.
 - [ ] Next Gen public source and license requirements are satisfied.
 - [ ] Final preview has no placeholders, broken links, private videos, or inaccessible repository.
@@ -37,7 +39,7 @@
 ## Grand Prize gate
 
 - [x] Google Play app exists with package `com.replaylead.app` (Play app ID `4974326812058473241`).
-- [ ] Signed release AAB uses a real Google Play RevenueCat public SDK key, not the Test Store key.
+- [x] Signed release AAB uses a real Google Play RevenueCat public SDK key, not the Test Store key.
 - [ ] Closed test is live with at least 12 opted-in testers for 14 continuous days.
 - [ ] Publicly downloadable eligible store build exists in the United States.
 - [ ] Real RevenueCat revenue exists during the submission period.

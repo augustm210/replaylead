@@ -1,6 +1,6 @@
 # ReplayLead — Devpost Draft
 
-Status: working submission copy. Public links are verified; store availability and real revenue remain conditional until direct evidence exists.
+Status: working submission copy. Public links and production-shaped Google Play/RevenueCat configuration are verified; public store availability and real revenue remain conditional until direct evidence exists.
 
 ## Tagline
 
@@ -20,6 +20,8 @@ The user chooses a realistic management scenario and rates how prepared they fee
 
 ReplayLead Pro is designed as a recurring practice habit: unlimited rehearsals, deeper branch comparison, history, and confidence trends. RevenueCat supplies the live Offering, localized price, purchase flow, entitlement state, and user-triggered restore. The app never invents a price when RevenueCat is not configured.
 
+The production catalog now supports monthly, annual, and lifetime access. Google Play products are mapped to the same RevenueCat entitlement and Offering used by the app, and Google Play real-time developer notifications have been verified end to end with a test message received in RevenueCat. The demo transaction itself uses RevenueCat Test Store, so it is clearly labeled as simulated and is not presented as revenue.
+
 ## How we built it
 
 - Kotlin, Jetpack Compose, and a small state-driven Android architecture.
@@ -31,13 +33,13 @@ ReplayLead Pro is designed as a recurring practice habit: unlimited rehearsals, 
 
 ## RevenueCat implementation
 
-The paywall fetches the current RevenueCat Offering only when opened, displays the StoreProduct's localized price, purchases the selected annual package, and unlocks only when the configured `replaylead_pro` entitlement is active. Restore is always an explicit user action. Release builds fail if the public SDK key is missing or has the Test Store `test_` prefix.
+The paywall fetches the current RevenueCat Offering only when opened, displays the StoreProduct's localized price, purchases the selected annual package, and unlocks only when the configured `replaylead_pro` entitlement is active. Restore is always an explicit user action. Release builds fail if the public SDK key is missing or has the Test Store `test_` prefix. In Google Play, monthly, annual, and lifetime products are active and mapped to `$rc_monthly`, `$rc_annual`, and `$rc_lifetime`; server notifications cover subscriptions, voided purchases, and all one-time products.
 
 Evidence to add:
 
 - Demo purchase and restore segment: https://www.youtube.com/watch?v=XlhX__dl-Qw
 - Device evidence: `artifacts/submission/revenuecat-pro-restored-1080x2400.png`
-- [BLOCKED: live store product and public platform key evidence, if Gate B passes]
+- Production-shaped evidence: Google Play products, RevenueCat mappings, valid service credentials, and end-to-end real-time developer notification receipt are verified. The app is not yet public and no real purchase or revenue is claimed.
 
 ## Challenges
 

@@ -65,7 +65,7 @@ ReplayLead is being built for RevenueCat Shipaton 2026. The current strategy and
 - Live API health check: https://replaylead-api.augustm210.workers.dev/health
 - Privacy policy: https://github.com/augustm210/replaylead/blob/main/submission/privacy-policy.md
 
-The RevenueCat transaction shown in the demo uses RevenueCat Test Store and does not represent real revenue. Google Play publication remains conditional on Google completing the developer-account identity review.
+The RevenueCat transaction shown in the demo uses RevenueCat Test Store and does not represent real revenue. A signed Google Play build is active on an internal test track with production products and real-time developer notifications configured, but it has no testers and is not publicly available. This personal developer account still requires at least 12 opted-in closed-test users for 14 continuous days before production access can be requested.
 
 ## License
 

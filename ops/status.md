@@ -1,6 +1,6 @@
 # Execution Status
 
-Updated: 2026-09-01
+Updated: 2026-09-02
 
 ## Completed
 
@@ -32,18 +32,21 @@ Updated: 2026-09-01
 - Verified the signed 8.2 MB release bundle at `artifacts/submission/ReplayLead-0.1.0-build1-release.aab` (SHA-256 `4F0820B96316322CDC212CB725BD835DF2342E54C7F30C0F39D1442B622D37F2`).
 - Uploaded version `1 (0.1.0)` to Google Play internal testing and published the internal release on 2026-09-01. The track is active but has no testers, so the build is not available to any user and is not a public release.
 - Re-ran RevenueCat credential validation after Google Play processed the first bundle; the Google Play service-account configuration now reports `Valid credentials`.
+- Completed the Google Payments merchant setup required to create Play products.
+- Created and activated the production catalog in Google Play: `replaylead_pro_monthly:monthly` at USD 9.99/month, `replaylead_pro_yearly:yearly` at USD 79.99/year, and non-repeatable `replaylead_pro_lifetime` at USD 99.99; each product is available in 173 pricing regions.
+- Imported all three Google Play products into RevenueCat, attached them to `replaylead_pro`, and mapped them to the `$rc_monthly`, `$rc_annual`, and `$rc_lifetime` packages in the `default` Offering while preserving the Test Store mappings.
+- Created the dedicated `play-store-notifications` Pub/Sub topic, connected it to RevenueCat, enabled Google Play real-time developer notifications for subscriptions, voided purchases, and all one-time products, and granted Google Play publisher access only on that topic.
+- Sent a Google Play test notification and verified end-to-end receipt in RevenueCat (`Last received 2026-09-02 08:09 UTC`).
 
 ## In progress
 
 - Devpost field-by-field completion and final submission review.
 - Google Play's 11 app-content/store-listing tasks and closed-test launch.
-- Create the real Google Play subscription/in-app-product catalog, connect Google developer notifications, and map the products into the RevenueCat entitlement and Offering.
 - Recruit at least 12 real Google Play testers and keep at least 12 opted in for 14 continuous days before requesting production access.
 
 ## External blocker / authenticated action remaining
 
 - Existing Devpost draft field-by-field audit and completion.
-- Google Play blocks subscription and one-time-product creation until a Google Payments merchant account is opened. The account setup can require the owner's legal, address, tax, banking, and payout information and must be reviewed and submitted by the account owner; no such information has been entered by Codex.
 - Final Google Play test-release submission, app-content declarations, tester-list transmission, and final Devpost submission each require action-time review/confirmation.
 
 ## Verified schedule constraints

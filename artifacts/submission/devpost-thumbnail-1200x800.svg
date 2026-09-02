@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#0B1F35"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A73"/>
+      <stop offset="1" stop-color="#FF5F4A"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="1080" cy="-20" r="330" fill="#173D5E" opacity="0.55"/>
+  <circle cx="-70" cy="760" r="290" fill="#173D5E" opacity="0.32"/>
+
+  <g transform="translate(92 106)" filter="url(#shadow)">
+    <rect width="154" height="154" rx="38" fill="#102A43" stroke="#2B5576" stroke-width="3"/>
+    <path fill="url(#glow)" d="M77 27a50 50 0 1 0 46.8 32.4h-16.5a35.3 35.3 0 1 1-10-12.5L82.9 60.8h41.2V19.6l-15.3 15.3A49.8 49.8 0 0 0 77 27Z"/>
+    <path fill="#FFFFFF" d="M55 62h44a7.4 7.4 0 0 1 7.4 7.4v19.1a7.4 7.4 0 0 1-7.4 7.4H78.4l-13.2 11.8V95.9H55a7.4 7.4 0 0 1-7.4-7.4V69.4A7.4 7.4 0 0 1 55 62Z"/>
+  </g>
+
+  <text x="92" y="350" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="96" font-weight="750" letter-spacing="-3">ReplayLead</text>
+  <text x="96" y="420" fill="#B9D1E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="500">Practice the hard conversation.</text>
+  <text x="96" y="466" fill="#B9D1E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="500">Rewind the moment. Lead it better.</text>
+
+  <g transform="translate(750 152)" filter="url(#shadow)">
+    <rect width="350" height="494" rx="38" fill="#F8FBFD"/>
+    <rect x="38" y="42" width="206" height="58" rx="20" fill="#E8F0F6"/>
+    <rect x="107" y="129" width="205" height="76" rx="24" fill="#FF735C"/>
+    <circle cx="61" cy="168" r="9" fill="#173D5E"/>
+    <path d="M61 183v42c0 25 17 34 36 34h28" fill="none" stroke="#173D5E" stroke-width="6" stroke-linecap="round"/>
+    <path d="M61 225v74c0 25 17 34 36 34h28" fill="none" stroke="#FF735C" stroke-width="6" stroke-linecap="round"/>
+    <rect x="124" y="226" width="188" height="70" rx="22" fill="#E8F0F6"/>
+    <rect x="124" y="312" width="188" height="70" rx="22" fill="#FFE4DE"/>
+    <text x="151" y="271" fill="#173D5E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="650">Original response</text>
+    <text x="151" y="357" fill="#C84635" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="650">Better branch</text>
+    <rect x="38" y="418" width="274" height="38" rx="19" fill="#102A43"/>
+    <text x="92" y="444" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0.5">REWIND &amp; RETRY</text>
+  </g>
+
+  <rect x="92" y="650" width="500" height="2" fill="#2B5576"/>
+  <text x="96" y="701" fill="#FF8A73" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2">AI CONVERSATION REHEARSAL FOR NEW MANAGERS</text>
+</svg>
