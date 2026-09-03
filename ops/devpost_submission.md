@@ -1,14 +1,15 @@
 # Devpost Submission Record
 
-Updated: 2026-09-02
+Updated: 2026-09-03
 
 ## Current state
 
 - Project: ReplayLead
 - Devpost submission ID: `1160024`
-- Status: Draft, 4/5 steps complete
+- Status: Submitted
 - Public preview: https://devpost.com/software/replaylead
-- Final action not taken: official-rules acceptance and `Submit project`
+- Devpost confirmation: `Project submitted!`
+- Editable until the hackathon deadline shown by Devpost: October 01, 2026 at 02:45am EDT
 
 ## Saved public content
 
@@ -49,4 +50,9 @@ Updated: 2026-09-02
 - GitHub and live API links are present.
 - The page contains no placeholders or claims of public store availability, users, conversion, or revenue.
 
-The next browser action is high consequence: check acceptance of the Official Rules and Devpost Terms of Service, then click `Submit project`. Obtain action-time confirmation immediately before doing so.
+## Final submission evidence
+
+- On 2026-09-03, after explicit action-time authorization, the Official Rules and Devpost Terms declaration was accepted and `Submit project` was clicked.
+- Devpost redirected to the public ReplayLead page and displayed `Project submitted!`.
+- The public page lists ReplayLead under `Submitted to` RevenueCat Shipaton 2026 and provides an `Edit hackathon submission` link.
+- Submission remains editable until the deadline; later edits must continue to avoid unsupported store, user, or revenue claims.

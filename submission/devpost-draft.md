@@ -1,6 +1,6 @@
 # ReplayLead — Devpost Draft
 
-Status: saved to Devpost and preview-audited on 2026-09-02. The submission is at 4/5 steps; official-rules acceptance and the final Submit action are pending explicit action-time confirmation. Public store availability and real revenue remain conditional until direct evidence exists.
+Status: submitted to RevenueCat Shipaton 2026 on 2026-09-03 after explicit action-time authorization. Devpost displayed `Project submitted!` and redirected to the public project page. The entry remains editable until the deadline shown by Devpost. Public store availability and real revenue remain conditional until direct evidence exists.
 
 ## Tagline
 

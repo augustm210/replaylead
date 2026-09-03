@@ -34,7 +34,7 @@
 - [x] Career Coaching story explicitly covers realistic practice, useful feedback, and confidence building.
 - [x] Next Gen public source and license requirements are satisfied.
 - [x] Final preview has no placeholders, broken links, private videos, or inaccessible repository.
-- [ ] Submission confirmation is captured after the final save/submit action.
+- [x] Submission confirmation is captured after the final save/submit action (`Project submitted!`, 2026-09-03).
 
 ## Grand Prize gate
 
